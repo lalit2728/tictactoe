@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="tictoctoe.css">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    <script type="text/javascript" src="tictoctoe.js"></script>
+</head>
+
+<body>
+    <div id="overlay">
+        <p><span>Welcome</span> to the Tic-Tac-Toe game developed and programmed by <span>Lalit
+                Upadhyay</span>.</p>
+        <p id="player-choice">Which symbol you want to choose for First Player:</p>
+        <div>
+            <button class="moves-button" onclick="entry('btn-1')">X</button>
+            <button class="moves-button" onclick="entry('btn-2')">O</button>
+        </div>
+    </div>
+    <div id="heading">
+        <h1>Tic-Tac-Toe</h1>
+    </div>
+    <div id="container">
+        <div id="player-movements"></div>
+        <div id="play-area">
+            <span id="span-1" class="press" onclick="theLogic(0)"></span>
+            <span id="span-2" class="press" onclick="theLogic(1)"></span>
+            <span id="span-3" class="press" onclick="theLogic(2)"></span>
+            <span id="span-4" class="press" onclick="theLogic(3)"></span>
+            <span id="span-5" class="press" onclick="theLogic(4)"></span>
+            <span id="span-6" class="press" onclick="theLogic(5)"></span>
+            <span id="span-7" class="press" onclick="theLogic(6)"></span>
+            <span id="span-8" class="press" onclick="theLogic(7)"></span>
+            <span id="span-9" class="press" onclick="theLogic(8)"></span>
+        </div>
+    </div>
+</body>
+
+</html>
