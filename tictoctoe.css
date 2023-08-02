@@ -184,3 +184,9 @@ body:hover > #overlay{
 .press:nth-child(9){
     border-bottom-right-radius: 50px;
 }
+
+@media (max-width: 768px) {
+    #overlay {
+        height: 720px;
+    }
+}
